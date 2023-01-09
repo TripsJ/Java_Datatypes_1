@@ -7,6 +7,8 @@
         How come you can just print all of these datatypes?
         Why are those called primitive data types?
         Why can't you assign a double to an integer?
+        DOUBLES need more space in memory so we might loose content
+        You could cast them explicitely
         But why can you assign an integer to a char?
         Why can't you assign a long to a int?*/
 
@@ -53,6 +55,7 @@ static int x = 26546676;       // The int data type is a 32-bit signed Java prim
         System.out.println(fl);
         System.out.println(dl);
         System.out.println(t);
+        // x = dl; possible lossy conversion from double to int
 
     }
 
