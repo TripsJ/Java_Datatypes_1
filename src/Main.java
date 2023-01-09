@@ -39,7 +39,7 @@ static int x = 26546676;       // The int data type is a 32-bit signed Java prim
 
     static boolean t = true;      // Truth values in lowercase
 
-    // Technically theres void xich is the type reprisenting the absence of a return type
+    // Technically there's void which is the type representing the absence of a return type
 
     // a java programs execution starts with the main method
     //like this :
