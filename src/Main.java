@@ -10,7 +10,9 @@
         DOUBLES need more space in memory so we might loose content
         You could cast them explicitely
         But why can you assign an integer to a char?
-        Why can't you assign a long to a int?*/
+        Their being read as ascii codes
+        Why can't you assign a long to a int?
+        LONG need more space in memory so we might loose content*/
 
 
 
@@ -56,6 +58,8 @@ static int x = 26546676;       // The int data type is a 32-bit signed Java prim
         System.out.println(dl);
         System.out.println(t);
         // x = dl; possible lossy conversion from double to int
+        char test = 568;
+        System.out.println(test);
 
     }
 
